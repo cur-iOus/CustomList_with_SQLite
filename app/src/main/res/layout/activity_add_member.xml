@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddMember"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:paddingTop="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter new member's details"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/design_default_color_primary_dark"/>
+
+    <EditText
+        android:id="@+id/nameEditTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text"
+        tools:ignore="InvalidId" />
+    <EditText
+        android:id="@+id/addressEditTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        tools:ignore="InvalidId" />
+    <Button
+        android:id="@+id/okButtonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        tools:ignore="InvalidId" />
+
+</LinearLayout>
